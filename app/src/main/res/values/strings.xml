@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Bersih Kotaku</string>
+    <string name="login_welcome_text">Bersih kotaku membantu anda menyelesaikan masalah sampah</string>
+    <string name="sign_with_google">Masuk dengan google</string>
+    <string name="buy_packet">Pilih Paket</string>
+    <string name="recommend_pack_image">Rekomendasi Paket</string>
+    <string name="home_menu">Home</string>
+    <string name="history_menu">Riwayat</string>
+    <string name="profile_menu">Akun</string>
+    <string name="no_active_subs">Hey! Kamu belum punya paket ni, ayo beli paketmu sekarang</string>
+    <string name="notification">Notifikasi</string>
+    <string name="time">Jam: </string>
+    <string name="price">Harga: </string>
+    <string name="profile_header">Profil</string>
+    <string name="edit_profile">Edit Akun</string>
+    <string name="show_profile">Informasi Akun</string>
+    <string name="change_profile_picture">Perbaharui gambar anda</string>
+    <string name="change_profile_picture_max_mb">Unggah foto dibawah 2mb</string>
+    <string name="upload">Upload</string>
+    <string name="phone">Telepon</string>
+    <string name="address">Alamat</string>
+    <string name="job">Pekerjaan</string>
+    <string name="save">Simpan</string>
+    <string name="profile">Edit Akun</string>
+    <string name="account_information">Informasi Akun</string>
+    <string name="profile_updated">Data berhasil diperbaharui</string>
+    <string name="address_updated">Alamat berhasil ditambahkan</string>
+    <string name="no_data_history_title">Belum ada riwayat</string>
+    <string name="no_data_history_content">Yuk, Berlangganan Paket</string>
+    <string name="payment">Pembayaran</string>
+    <string name="order_process">Pesanan sedang dikonfirmasi</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="history_title">Riwayat</string>
+    <string name="recommend_plans">Rekomendasi Paket</string>
+    <string name="status_plans">Status Paket</string>
+    <string name="view_all">Lihat semua</string>
+    <string name="there_no_active_plan">Paket belum aktif</string>
+    <string name="pick_plan">Paket Sampah Bulanan</string>
+    <string name="payment_confirmation">Pesanan</string>
+    <string name="add_address">Tambah Alamat</string>
+    <string name="select_payment_method">Metode Pembayaran</string>
+    <string name="confirmation">Konfirmasi</string>
+    <string name="please_fill_the_form">Konfirmasi</string>
+    <string name="select_date_of_birth">Pilih tanggal lahir</string>
+    <string name="select_gender">Jenis kelamin</string>
+    <string name="linkmaps" translatable="false">Link GoogleMaps</string>
+    <string name="no_data_historyPesanan_title" translatable="false">Belum ada riwayat pesanan</string>
+    <string name="no_data_historyPesanan_content" translatable="false">Yuk, Berlangganan Paket.</string>
+    <string name="no_data_historyTrash_title" translatable="false">Belum ada riwayat sampah</string>
+    <string name="no_data_historyTrash_content" translatable="false">Silahkan, tunggu informasi dari kami.</string>
+    <string name="almt" translatable="false">Alamat</string>
+    <string name="almt_maps" translatable="false">Link Google Maps</string>
+    <string name="Upload_receipt" translatable="false">Upload Bukti Pembayaran</string>
+</resources>

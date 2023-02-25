@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/mainTopBar"
+        android:layout_width="0dp"
+        android:layout_height="99dp"
+        android:background="?colorPrimaryDark"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="38dp"
+        android:paddingEnd="38dp"
+        tools:viewBindingIgnore="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/mainProfileTopBar"
+            android:layout_width="50dp"
+            app:shapeAppearanceOverlay="@style/CircularImgHome"
+            android:layout_height="50dp"
+            tools:src="@tools:sample/avatars" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mainNameTopBar"
+            style="@style/TextAppearance.Material3.HeadlineSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="?colorOnPrimary"
+            tools:text="Hi, People" />
+
+        <Button
+            android:id="@+id/mainNotificationTopBar"
+            style="@style/Widget.Material3.Button.IconButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_notification"
+            app:iconTint="?colorOnPrimary"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
